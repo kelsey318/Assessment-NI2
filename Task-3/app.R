@@ -44,3 +44,4 @@ server <- function(input, output) {
 # Run the application 
 shinyApp(ui = ui, server = server)
 
+runGitHub(repo = "Assessment-NI2", username = "kelsey318", ref = "Task-3")
